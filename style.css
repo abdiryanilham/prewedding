@@ -1,0 +1,64 @@
+:root {
+    --pink: #f14e95;
+    --bg: #FFFDD0;
+    --white: #FF7F50;
+    --shadow: 0 2px 2px rgb(0 0 0/0.5);
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: "Lobster", sans-serif;
+    min-height: 2000px;
+}
+
+.hero h1, .hero h4, .hero p {
+    text-shadow: var(--shadow);
+}
+
+.hero {
+    min-height: 100vh;
+    background-color: var(--bg);
+}
+
+.hero h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+}
+.hero h1 {
+    font-size: 6rem;
+}
+.hero p {
+    font-size: 1.4rem;
+}
+
+.hero a {
+    color: var(--white);
+    background-color: white;
+    box-shadow: var(--shadow);
+}
+
+.hero a:hover {
+    background-color: var(--white);
+    color: white;
+}
+
+
+/* lp */
+@media (max-width: 992px) {
+    html{
+        font-size: 60%;
+    }
+}
+/* tb */
+@media (max-width: 768px) {
+    html{
+        font-size: 65%;
+
+    }
+}
+/* hp */
+@media (max-width: 576px) {
+    html{
+        font-size: 75%;
+    }
+}
