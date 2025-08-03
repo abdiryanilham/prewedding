@@ -10,7 +10,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: auto;
   gap: 1.25rem;
   font-family: "Inter", system-ui, -apple-system, sans-serif;
 }
@@ -22,7 +21,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(68, 74, 87, 0.75);
+  background: rgba(15, 23, 42, 0.75);
   border: 1px solid rgba(51, 65, 85, 0.6);
   border-radius: 1rem;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.05);

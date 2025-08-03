@@ -28,17 +28,17 @@ const w = (n, e, o, t, l, d) => {
  *  - mira01
  */
 const m = {
-  year: 2024,
-  month: 12,
+  year: 2027,
+  month: 8,
   day: 25,
   hours: 0,
   minutes: 0,
   seconds: 0,
   words: {
-    days: { lambda: (n, e) => e > 1 ? n + "s" : n, root: "day" },
-    hours: { lambda: (n, e) => e > 1 ? n + "s" : n, root: "hour" },
-    minutes: { lambda: (n, e) => e > 1 ? n + "s" : n, root: "minute" },
-    seconds: { lambda: (n, e) => e > 1 ? n + "s" : n, root: "second" }
+    days: { lambda: (n, e) => e > 1 ? n + "s" : n, root: "hari" },
+    hours: { lambda: (n, e) => e > 1 ? n + "s" : n, root: "jam" },
+    minutes: { lambda: (n, e) => e > 1 ? n + "s" : n, root: "menit" },
+    seconds: { lambda: (n, e) => e > 1 ? n + "s" : n, root: "detik" }
   },
   plural: !0,
   inline: !1,
